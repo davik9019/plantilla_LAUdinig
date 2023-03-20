@@ -1,0 +1,246 @@
+:root { /** Pseudo clase **/
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #f50461;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #FFF;
+    --negro: #f8f1f4;
+    --grisclaro:#fc0909;
+    --rosadopstel:#f70757;
+}
+
+body {
+    background-color: #020000;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+.body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+.login, .registrar
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    background-image: url(/images/imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+.texto_tema{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    color: var(--blanco);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+.pf_registrar, .pf_login{
+    text-align: center;
+    font-size: 16px;
+    padding: 2px;
+}
+.pf_nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+
+}
+.table{
+    margin: auto;
+    width: 80rem;
+    min-width: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.medidas{
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 205px;
+    height: 150px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.parrafo_table{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--negro);
+}
+.logo{
+ 
+    height: 80px;
+    width: 100px;
+    padding: 3px;
+    
+}
+.redes_sociales{
+    align-items: center;
+    margin-top: 5rem;
+    color:#fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.icono{
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+}
+.icono2{
+    height: 40px;
+    width: 50px;
+    padding: 3px;
+}
+.fotografia{
+    height: 175px;
+    width: 120px;
+    margin: auto;
+    display: block;
+}
+
+.img_novedades{
+    height: 426px;
+    width: 240px; 
+}
+.img_novedades2{
+    height: 206px;
+    width: 293px; 
+}
+.novedades{
+   margin-top: 5em;
+}
+.contenidos{
+    /*grid*/
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    padding: 5rem;
+
+}
+.video{
+    height: 351px;
+    width: 250px;  
+}
+.p_novedades{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 2px;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
